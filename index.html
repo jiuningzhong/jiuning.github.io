@@ -1,20 +1,35 @@
-
 <!DOCTYPE HTML>
 <html>
 
 <head>
     <meta http-equiv="Content-Type" content ="text/html; charset = gb2312"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Veritas & Unitas & Caritas </title>
+	<title> Jiuning Zhong @ SUNY Albany </title>
     <meta name="description" content="">
     <meta name="author" content="Jiuning Zhong">
+        <!-- Standard reset, fonts and grids -->
+    <link rel="stylesheet" type="text/css" href="../styles/reset-fonts-grids.css">
+    <!-- CSS for Menu -->
+    <link rel="stylesheet" type="text/css" href="../styles/sam/menu.css">
+    <!-- Dependency source files -->
+    <script type="text/javascript" src="../styles/yahoo-dom-event.js"></script>
+    <script type="text/javascript" src="../styles/container_core.js"></script>
+    <!-- Menu source file -->
+    <script type="text/javascript" src="../styles/menu.js"></script>
+    <!-- styles for the whole website -->
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" />
+    <!-- javascript for the menu -->
+    <script type="text/javascript">
+        YAHOO.util.Event.onContentReady("graphgardenmainmenu", function () {
+        var oMenu = new YAHOO.widget.Menu("graphgardenmainmenu", { position: "static", hidedelay:  0, lazyload: true }); oMenu.render(); });
+    </script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
 	if (typeof jQuery == 'undefined'){
 		document.write(unescape("%3Cscript src='assets/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
 	}
     </script>
-    <style>
+    <!--<style>
             body {
                 background: white;
                 font-family: Cabin, serif;
@@ -63,11 +78,11 @@
                 list-style-type: square;
                 line-height: 1.5;
             }
-        </style>
+        </style>-->
 </head>
 
 <body>
-<div id="layout-content">
+<div class="yui-skin-sam" id="yahoo-com">
         <div id="toptitle">
         </div>
 
