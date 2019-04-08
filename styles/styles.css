@@ -209,7 +209,7 @@ _zoom: normal;
 
 
 /* ===== for callout BEGIN ===== */
-.call-out-green, .call-out-blue, .call-out-orange{
+.call-out-green, .call-out-blue, .call-out-orange, .call-out-purple{
 margin: 20px 0px;
 color:#FFFFFF;
 padding:13px 20px;
@@ -222,6 +222,10 @@ line-height:1.4em;
 background:#74a743;
 }
 
+.call-out-purple{
+  background:#ac1ab1;
+  }
+
 .call-out-blue{
 background:#45a3ff;
 }
@@ -230,7 +234,7 @@ background:#45a3ff;
 background:#ff8b00;
 }
 
-.call-out-green strong, .call-out-blue strong, .call-out-orange strong{
+.call-out-green strong, .call-out-blue strong, .call-out-orange strong, .call-out-purple strong{
 font-weight:bold;
 }
 /* ===== for callout END ===== */
