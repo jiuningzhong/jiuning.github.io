@@ -1,1 +1,23 @@
+title: Jiuning Zhong's Logs
+description: to share my research interests, research ideas, and research resources I find helpful.
+url: https://jiuningzhong.github.io/
+author: Jiuning - PhD student @ SUNY Albany
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
+  - jemoji
+  - jekyll-mentions
+  - jekyll-include-cache
